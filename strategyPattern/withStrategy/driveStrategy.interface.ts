@@ -1,3 +1,3 @@
-interface DriveStrategy {
+export interface DriveStrategy {
   drive(): string;
 }

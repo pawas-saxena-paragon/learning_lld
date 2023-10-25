@@ -1,4 +1,6 @@
-class VehicleS {
+import { DriveStrategy } from "./driveStrategy.interface";
+
+export class VehicleS {
   driveStrategy: DriveStrategy;
 
   constructor(driveStrategy: DriveStrategy) {
